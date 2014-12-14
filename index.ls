@@ -30,7 +30,8 @@ f2 = fs.readFileSync(o['FILE2'], 'utf-8')
 
 v = diff.diffLines(f1, f2)
 
-if v.length == 1 and not v[0].count?
+
+if v.length == 1 and not v[0].count? and not v[0].added? and not v[0].removed?
     console.error "#message: " + chalk.green('OK')
 else
     console.error "#message: " + chalk.red('FAIL')
