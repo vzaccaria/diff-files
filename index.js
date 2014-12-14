@@ -19,7 +19,6 @@
   f1 = fs.readFileSync(o['FILE1'], 'utf-8');
   f2 = fs.readFileSync(o['FILE2'], 'utf-8');
   v = diff.diffLines(f1, f2);
-  console.log(v);
   if (v.length === 1 && v[0].count == null && v[0].added == null && v[0].removed == null) {
     console.error((message + ": ") + chalk.green('OK'));
   } else {
