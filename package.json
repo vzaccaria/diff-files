@@ -1,6 +1,6 @@
 {
   "name": "diff-files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Diff files during tests, outputs OK when equal, FAIL otherwise",
   "bin": {
     "diff-files": "./index.js"
