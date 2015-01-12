@@ -12,8 +12,9 @@
   "author": "Vittorio Zaccaria",
   "license": "BSD",
   "dependencies": {
-    "docopt": "~0.4.1",
+    "chalk": "~0.5.1",
     "diff": "~1.2.0",
-    "chalk": "~0.5.1"
+    "docopt": "~0.4.1",
+    "xyz": "^0.5.0"
   }
 }
